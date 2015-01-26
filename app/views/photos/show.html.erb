@@ -1,0 +1,8 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <%= image_tag attachment_url(@photo, :photo, :fill, 300, 300) %>
+</p>
+
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>
